@@ -21,8 +21,8 @@ const logger = fs.createWriteStream(outputPath, {
 
 logger.write("[\n");
 
-let totalPunkCount = db.prepare('SELECT COUNT(id) as punk_total FROM punks').get().punk_total;
-let punks = db.prepare('SELECT punks.* FROM punks ORDER BY id').all();
+let totalPunkCount = db.prepare('SELECT COUNT(id) as punk_total FROM tables.punks').get().punk_total;
+let punks = db.prepare('SELECT punks.* FROM tables.punks ORDER BY id').all();
 
 let count = 0;
 punks.forEach(punk => {
