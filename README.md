@@ -22,7 +22,7 @@ I personally use Yarn and NVM, so you can consider install them too:
 - Yarn
 - NVM
 
-## Run Cool Rarity locally
+## Run Cool Rarity locall
 
 ### Step 1: Clone from GitHub
 
