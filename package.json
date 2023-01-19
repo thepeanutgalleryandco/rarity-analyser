@@ -17,7 +17,7 @@
     "better-sqlite3": "^7.4.3",
     "cookie-parser": "~1.4.4",
     "debug": "^4.3.2",
-    "ejs": "~2.6.1",
+    "ejs": "~3.1.7",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "lodash": "^4.17.21",
